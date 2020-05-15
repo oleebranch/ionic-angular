@@ -9,13 +9,13 @@ export class RecipesService {
     {
       id:'r1',
       title: 'Rolex',
-      imageUrl: 'https://www.flickr.com/photos/rachelstrohm/48851313596/sizes/q/',
+      imageUrl: 'https://www.independent.co.ug/wp-content/uploads/2016/06/rola.jpg',
       ingredients: ['Chapatti', 'Onions', 'Tomatoes', 'Carrots', 'Cabbages', 'Salt', 'Oil']
     },
     {
       id:'r2',
       title: 'Chicken Dumplings',
-      imageUrl: 'https://www.flickr.com/photos/micromitra/8686652062/sizes/q/',
+      imageUrl:'https://gfscdn.azureedge.net/images/Product/medium/steamed-chicken-dumplings-recipe-1S-12773.jpg',
       ingredients: ['Flour', 'Chicken', 'Chicken Soup', '1tbs Sesame', 'Soy Sauce', 'Salt', 'Oil']
     }
   ]

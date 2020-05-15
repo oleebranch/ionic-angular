@@ -11,7 +11,7 @@ const routes: Routes = [
     },
     {
       path: 'recipeId',
-      loadChildren: './recipes/recipe-detail.module#RecipesPageModule'
+      loadChildren: './recipes/recipe-detail/recipe-detail.module#RecipeDetailPageModule'
     }
     ]
    },
