@@ -7,7 +7,8 @@
 <ion-content>
   <ion-list>
     <app-recipe-item *ngFor="let recipe of recipes" 
-    [recipeItem]="recipe"></app-recipe-item>
+    [recipeItem]="recipe" [routerLink]="['./', recipe.id]" 
+    ></app-recipe-item>
   
   </ion-list>
 </ion-content>
